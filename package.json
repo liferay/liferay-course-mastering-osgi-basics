@@ -1,0 +1,10 @@
+{
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "client-extensions/clarity-theme",
+            "client-extensions/clarity-insurance-benefits-tracker-dashboard",
+            "client-extensions/clarity-global-css"
+        ]
+    }
+}
