@@ -1,0 +1,4 @@
+Bundle-Name: Clarity Vision Solutions :: OSGi :: Service Ranking Override
+Bundle-SymbolicName: com.clarityvisionsolutions.osgi.blog.portlet.action
+Bundle-Version: 1.0.0
+Export-Package: com.clarityvisionsolutions.osgi.blog.portlet.action

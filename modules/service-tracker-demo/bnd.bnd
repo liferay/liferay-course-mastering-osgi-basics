@@ -1,0 +1,3 @@
+Bundle-Name: Clarity Vision Solutions :: OSGi :: Service Tracker Demo
+Bundle-SymbolicName: com.clarityvisionsolutions.osgi.service.tracker
+Bundle-Version: 1.0.0

@@ -1,0 +1,4 @@
+Bundle-Name: Clarity Vision Solutions :: OSGi :: Configuration Demo
+Bundle-SymbolicName: com.clarityvisionsolutions.osgi.configuration
+Bundle-Version: 1.0.0
+Export-Package: com.clarityvisionsolutions.osgi.configuration

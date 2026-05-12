@@ -1,0 +1,3 @@
+Bundle-Name: Clarity Vision Solutions :: OSGi :: Multiple Reference Injection
+Bundle-SymbolicName: com.clarityvisionsolutions.osgi.multiples
+Bundle-Version: 1.0.0

@@ -1,0 +1,6 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+	compileOnly group: "org.slf4j", name: "slf4j-api", version: "1.7.36"
+
+	api project(":modules:clarity-insurance-benefits-tracker:clarity-insurance-benefits-tracker-api")
+}
