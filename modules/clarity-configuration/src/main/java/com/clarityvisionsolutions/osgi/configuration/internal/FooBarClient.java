@@ -4,6 +4,7 @@ import com.liferay.portal.configuration.metatype.bnd.util.ConfigurableUtil;
 import com.clarityvisionsolutions.osgi.configuration.FooBarConfiguration;
 import com.liferay.portal.configuration.module.configuration.ConfigurationProvider;
 import com.liferay.portal.kernel.module.configuration.ConfigurationException;
+import com.liferay.portal.kernel.module.framework.ModuleServiceLifecycle;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -133,5 +134,9 @@ public class FooBarClient {
 
     private volatile FooBarConfiguration _configuration;
 
+    @Reference(target = ModuleServiceLifecycle.PORTAL_INITIALIZED, unbind = "-")
+    protected void setModuleServiceLifecycle(ModuleServiceLifecycle moduleServiceLifecycle) {
+        _log.info("=== ModuleServiceLifecycle SET ===");
+    }
 }
 

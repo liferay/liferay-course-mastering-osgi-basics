@@ -5,7 +5,7 @@ import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Deactivate;
 import org.osgi.service.component.annotations.Modified;
 import org.osgi.service.component.ComponentContext;
-import org.osgi.service.module.ModuleServiceLifecycle;
+import com.liferay.portal.kernel.module.framework.ModuleServiceLifecycle;
 import org.osgi.service.component.annotations.Reference;
 
 import org.slf4j.Logger;
