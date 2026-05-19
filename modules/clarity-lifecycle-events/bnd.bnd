@@ -2,4 +2,4 @@ Bundle-Name: Clarity Vision Solutions :: OSGi :: Lifecycle
 Bundle-SymbolicName: com.clarityvisionsolutions.osgi.lifecycle
 Bundle-Version: 1.0.0
 
-Bundle-Activator: com.example.lifecycle.LifecycleActivator
+Bundle-Activator: com.clarityvisionsolutions.osgi.internal.lifecycle.LifecycleActivator
